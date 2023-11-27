@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+body{
+    background-image: url(repet.jpeg);
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px; 
+    margin: auto;
+    gap: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center ;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    width: 240px;
+    height: 260px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    object-fit: cover;
+    overflow: hidden;
+}

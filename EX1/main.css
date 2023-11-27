@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 10%;
+}
+body .DIV {
+  background-image: url(Group\ 17.jpg);
+  background-size: cover;
+  border-radius: 15px;
+  box-shadow: 0 0 8px;
+  display: block;
+  margin: auto;
+  width: 40vw;
+  height: 60vh;
+  padding-top: 7%;
+}
+body .DIV div {
+  background-color: rgb(255, 255, 255);
+  padding-top: 6%;
+  padding-left: 5%;
+  box-shadow: inset green 0 0 5px;
+  margin: auto;
+  display: block;
+  width: 25vw;
+  height: 30vh;
+}
+body .DIV div .DI {
+  margin-top: -5%;
+  margin-left: 3%;
+  width: 13vh;
+  height: 13vh;
+  position: absolute;
+  background-color: rgb(0, 201, 0);
+  border-radius: 50px;
+  color: white;
+  box-shadow: green 0 0 10px;
+  font-size: 1rem;
+}
+body .DIV div input {
+  padding-left: 5%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  width: 10vw;
+  height: 5vh;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid gray;
+}
+body .DIV div button {
+  border: none;
+  background-color: initial;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  width: 10vw;
+  height: 4vh;
+  border-bottom: 2px solid rgb(0, 201, 0);
+  border-radius: 15px;
+  font-size: 16px;
+}/*# sourceMappingURL=main.css.map */
